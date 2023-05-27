@@ -4,8 +4,15 @@
   "description": "api to fetch words and letters for wordle game",
   "main": "server.js",
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Engr. Pedro Raúl Spidalieri",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3",
+    "express": "^4.18.2"
+  }
 }
